@@ -6,7 +6,6 @@ search("groups", "*:*").each do |groups_data|
     home groups_data["home"]
     shell groups_data["shell"]
   end
-end
 search("users", "*:*").each do |users_data|
   users user_data["id"] do
     comment user_data["comment"]

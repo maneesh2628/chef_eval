@@ -1,0 +1,9 @@
+
+{
+  "id": "maneesh1",
+  "comment": "first user",
+  "uid": 2000,
+  "gid": 2628,
+  "home": "/home/maneesh1",
+  "shell": "/bin/bash"
+}

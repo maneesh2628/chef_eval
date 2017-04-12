@@ -1,3 +1,9 @@
+#
+# Cookbook:: ec2-docker
+# Recipe:: default
+#
+# Copyright:: 2017, The Authors, All Rights Reserved.
+#
 search("groups", "*:*").each do |groups_data|
   groups groups_data["id"] do
     comment groups_data["comment"]
